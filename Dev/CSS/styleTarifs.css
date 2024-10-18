@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Comfortaa', sans-serif;
+    background-color: #ECD6EB;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    padding: 5px 15px;
+}
+
+header nav ul li a.active {
+    background: #C00DB9;
+    border-radius: 20px;
+    color: black;
+}
+
+header nav ul li .search-box {
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #FFCCFD;
+    padding: 5px;
+}
+
+header nav ul li .search-box input {
+    border: none;
+    border-radius: 20px;
+    padding: 5px 10px;
+    background-color: #FFCCFD;
+}
+
+header nav ul li .search-box button {
+    border: none;
+    background: transparent;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+/* Main Container */
+.container {
+    text-align: center;
+    margin-bottom: 70px;
+
+    /* padding: 50px 0; */
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: black;
+}
+
+.test {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 118px;
+    font-size: 25px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Card Styles */
+.card {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom right, #CA26FF, #F4CAC0);
+    color: black;
+    border-radius: 15px;
+    border: 2px solid black;
+    width: 200px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+
+button {
+    background-color: white;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    
+}
+
+button:hover {
+    background-color: #f0f0f0;
+}
+
+  /* Styles du footer */
+footer {
+    background-color: #330031;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    /* border-bottom: 1px solid rgba(255, 255, 255, 0.2); */
+    padding-bottom: 20px;
+    margin-bottom: 20px; 
+}
+
+.footer-section {
+    width: 30%;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #e0e0e0;
+}
+
+.footer-section p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-bottom {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 1.8;
+}
+
+.company-links {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.link-column {
+    margin: 0 20px;
+}
+
+.link-column p {
+    margin: 5px 0;
+}
